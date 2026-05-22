@@ -1,0 +1,297 @@
+.article{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  margin: 90px auto;
+  max-width: 1200px;
+  padding: 0 40px;
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 420px;
+}
+
+.saveurimg{
+  width: 520px;
+  height: 680px;
+  object-fit: cover;
+  display: block;
+}
+
+.title-saveur{
+  white-space: pre-line;
+  color: #c8a96b;
+  text-align: left;
+  font-size: 52px;
+  line-height: 1.05;
+  margin: 0 0 28px;
+}
+
+.phrase{
+  white-space: pre-line;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.8;
+  margin: 0 0 35px;
+  color: #e8dcc2;
+}
+
+.description h3{
+  color: #c8a96b;
+  text-align: left;
+  font-size: 24px;
+  margin: 0 0 18px;
+}
+
+.description ul{
+  text-align: left;
+  padding-left: 22px;
+  margin: 0 0 30px;
+}
+
+.description li{
+  color: #e8dcc2;
+  font-size: 24px;
+  margin-bottom: 10px;
+  padding-left: 4px;
+  line-height: 1.2;
+}
+
+.description li::marker{
+  color: #c89b3c;
+  font-size: 16px;
+}
+
+.btn-decouvrir{
+  margin-top: 10px;
+  padding: 14px 34px;
+  background: transparent;
+  color: #c8a96b;
+  border: 1px solid #c8a96b;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  width: fit-content;
+  border-radius: 4px;
+}
+
+.btn-decouvrir:hover{
+  background: #c8a96b;
+  color: #050505;
+}
+
+/* MODALE */
+
+.modal-overlay{
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.82);
+  backdrop-filter: blur(8px);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.modal-content{
+  position: relative;
+  max-width: 950px;
+  width: 100%;
+  min-height: 520px;
+  background:
+    radial-gradient(circle at left, rgba(200,169,107,0.16), transparent 35%),
+    linear-gradient(135deg, #050505, #111, #030303);
+  border: 1px solid rgba(200,169,107,0.35);
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.8);
+}
+
+.modal-close{
+  position: absolute;
+  top: 14px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  color: #c8a96b;
+  font-size: 36px;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.modal-image-box{
+  width: 45%;
+  overflow: hidden;
+}
+
+.modal-image-box img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modal-text{
+  width: 55%;
+  padding: 70px 55px;
+  color: #e8dcc2;
+}
+
+.modal-small-title{
+  color: #c8a96b;
+  letter-spacing: 4px;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.modal-text h2{
+  color: #c8a96b;
+  white-space: pre-line;
+  font-size: 42px;
+  line-height: 1.1;
+  margin-bottom: 25px;
+}
+
+.modal-separator{
+  width: 120px;
+  height: 1px;
+  background: linear-gradient(to right, #c8a96b, transparent);
+  margin-bottom: 30px;
+  margin-left: 34%;
+}
+
+.modal-phrase{
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 35px;
+}
+
+.modal-text h4{
+  color: #c8a96b;
+  margin-bottom: 18px;
+}
+
+.modal-notes{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-left: 20%;
+}
+
+.modal-notes span{
+  border: 1px solid rgba(200,169,107,0.45);
+  color: #e8dcc2;
+  padding: 8px 14px;
+  font-size: 14px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1024px){
+  .article{
+    gap: 40px;
+    max-width: 900px;
+  }
+
+  .saveurimg{
+    width: 420px;
+    height: 580px;
+  }
+
+  .description{
+    width: 360px;
+  }
+
+  .title-saveur{
+    font-size: 42px;
+  }
+
+  .description li{
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .article{
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    margin: 60px auto;
+    padding: 0 22px;
+  }
+
+  .saveurimg{
+    width: 100%;
+    max-width: 430px;
+    height: 520px;
+  }
+
+  .description{
+    width: 100%;
+    max-width: 430px;
+    align-items: flex-start;
+  }
+
+  .title-saveur{
+    font-size: 38px;
+  }
+
+  .phrase{
+    font-size: 16px;
+  }
+
+  .btn-decouvrir{
+    width: 100%;
+    text-align: center;
+  }
+
+  .modal-content{
+    flex-direction: column;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+
+  .modal-image-box,
+  .modal-text{
+    width: 100%;
+  }
+
+  .modal-image-box{
+    height: 280px;
+  }
+
+  .modal-text{
+    padding: 45px 28px;
+  }
+
+  .modal-text h2{
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .saveurimg{
+    height: 430px;
+  }
+
+  .title-saveur{
+    font-size: 32px;
+  }
+
+  .description h3{
+    font-size: 21px;
+  }
+
+  .description li{
+    font-size: 20px;
+  }
+
+  .modal-overlay{
+    padding: 16px;
+  }
+}
