@@ -53,6 +53,8 @@ const Saveur = () => {
     <div>
       <Header />
 
+      <h1 className='titresaveur'>LES SAVEURS</h1>
+
       {produits.map((produit) => (
         <section key={produit.id}>
           <article className="article">

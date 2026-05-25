@@ -47,13 +47,13 @@
   color: white;
   letter-spacing: 3px;
   margin-bottom: 30px;
+  justify-content: center;
 }
 
 .heroButtons {
   display: flex;
   gap: 20px;
   justify-content: center;
-  margin-top: -5%;
 }
 
 .heroButtons button {

@@ -12,7 +12,7 @@ const Accueil = () => {
   <div className="footerInfos">
     <p>Instagram : @westafinedrinks</p>
     <p>TikTok : @westafinedrinks</p>
-    <p>contact.westafine@gmail.com</p>
+    <p>Mail : contact.westafine@gmail.com</p>
   </div>
 
   <p className="copyright">

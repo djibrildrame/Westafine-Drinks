@@ -2,6 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Accueil from "./Accueil/Accueil";
 import Histoire from "./Histoire/Histoire";
 import Saveur from "./Saveur/Saveur";
+import PointVente from "./Pvente/PointVente";
+import Contact from "./Contact/Contact";
 import './App.css';
 
 function App() {
@@ -12,9 +14,12 @@ function App() {
         <Router>
       <Routes>
         <Route path="/" element={<Accueil />} /> 
+        <Route path="/*" element={<Accueil />} /> 
         <Route path="/Accueil" element={<Accueil />} /> 
         <Route path="/Histoire" element={<Histoire />} /> 
         <Route path="/Saveur" element={<Saveur />} /> 
+        <Route path="/PointsVentes" element={<PointVente />} /> 
+        <Route path="/Contact" element={<Contact />} /> 
      
       </Routes>
     </Router>

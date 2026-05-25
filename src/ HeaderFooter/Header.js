@@ -15,12 +15,12 @@ const Header = () => {
         <Link to='/'>Accueil</Link>
         <Link to='/Histoire'>Histoire</Link>
         <Link to='/Saveur'>Saveurs</Link>
-        <Link>Point de vente</Link>
-        <Link>Contact</Link>
+        <Link to="/PointsVentes">Point de vente</Link>
+        <Link to="/Contact">Contact</Link>
         </div>
       </div>
     </div>
   )
 }
 
-export default Header
+export default Header;

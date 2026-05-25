@@ -1,0 +1,167 @@
+.contact {
+  color: #c89b3c;
+  text-align: center;
+  font-size: 45px;
+  margin-top: 70px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 90px;
+  margin: 70px auto;
+  max-width: 1100px;
+  padding: 0 30px;
+}
+
+.form2,
+.yes {
+  width: 420px;
+}
+
+.ecrire,
+.coordonne {
+  color: #c8a96b;
+  text-align: left;
+  font-size: 28px;
+  margin-bottom: 35px;
+}
+
+.formulaire {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formulaire input {
+  height: 45px;
+  border: 1px solid #c8a96b;
+  background: black;
+  color: whitesmoke;
+  border-radius: 5px;
+  width: 100%;
+  padding-left: 15px;
+}
+
+.formulaire input::placeholder {
+  color: rgba(255,255,255,0.65);
+}
+
+.message {
+  height: 180px !important;
+  padding-top: 15px;
+}
+
+.submit {
+  background: #c8a96b !important;
+  color: black !important;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-left: 0 !important;
+  width: 440px;
+}
+
+.reseaux {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  text-align: left;
+}
+
+.social-item {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.social-item i {
+  font-size: 32px;
+  width: 35px;
+}
+
+.fa-envelope {
+  color: #c8a96b;
+}
+
+.fa-instagram {
+  color: #E1306C;
+}
+
+.fa-tiktok {
+  color: white;
+}
+
+.social-item p {
+  color: #f1eadb;
+  font-size: 20px;
+  margin: 0;
+}
+
+/* séparateur vertical */
+
+.separator2 {
+  width: 1px;
+  min-height: 520px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    #c8a96b,
+    transparent
+  );
+}
+
+.Partenariat{
+    color: #c8a96b;
+}
+
+.fleurhibiscus {
+    width: 500px;
+
+    margin-left: 31%;
+}
+
+/* responsive */
+
+@media screen and (max-width: 768px) {
+  .contact {
+    font-size: 42px;
+  }
+
+  .form {
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+    margin: 50px auto;
+  }
+
+  .form2,
+  .yes {
+    width: 100%;
+    max-width: 420px;
+  }
+
+  .separator2 {
+    width: 80%;
+    min-height: 1px;
+    height: 1px;
+    background: linear-gradient(
+      to right,
+      transparent,
+      #c8a96b,
+      transparent
+    );
+  }
+
+  .fleurhibiscus {
+    width: 100%;
+    max-width: 320px;
+    margin-left: 51%;
+    margin-top: 25px;
+    display: block;
+    margin-right: auto;
+}
+
+
+}
