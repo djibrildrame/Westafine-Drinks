@@ -1,5 +1,5 @@
 import React from 'react';
-import gimgembre from "../Westafine-img/gimgembre.png";
+import gimgembre from "../Westafine-img/gimgembre.webp";
 
 const Premium = () => {
   return (

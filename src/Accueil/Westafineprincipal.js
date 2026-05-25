@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Soleil from "../Westafine-img/ChatGPT Image 20 mai 2026, 04_39_21.png";
+import Soleil from "../Westafine-img/ChatGPT Image 20 mai 2026, 04_39_21.webp";
 import "../Accueil/Accueil.css";
 
 const Westafineprincipal = () => {
@@ -23,7 +23,9 @@ const Westafineprincipal = () => {
     <div className="heroButtons">
      <Link to="Histoire"><button>Découvrir</button></Link>
      
+      <Link to="Saveur">
       <button className="outline">Nos saveurs</button>
+      </Link>
     </div>
   </div>
 </section>

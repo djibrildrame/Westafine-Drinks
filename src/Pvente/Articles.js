@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Pvente/PointVente.css";
-import Tremblay from "../Westafine-img/carrefour-tremblay.jpg";
+import Tremblay from "../Westafine-img/carrefour-tremblay.webp";
 
 const Articles = () => {
   const pventes = [

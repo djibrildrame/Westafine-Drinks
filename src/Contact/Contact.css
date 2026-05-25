@@ -34,23 +34,32 @@
   gap: 15px;
 }
 
-.formulaire input {
-  height: 45px;
+/* Tous les champs du formulaire ont la même taille */
+.formulaire input,
+.formulaire textarea {
+  box-sizing: border-box;
+  width: 100%;
   border: 1px solid #c8a96b;
   background: black;
   color: whitesmoke;
   border-radius: 5px;
-  width: 100%;
   padding-left: 15px;
+  font-size: 15px;
 }
 
-.formulaire input::placeholder {
-  color: rgba(255,255,255,0.65);
+.formulaire input {
+  height: 45px;
+}
+
+.formulaire input::placeholder,
+.formulaire textarea::placeholder {
+  color: rgba(255, 255, 255, 0.65);
 }
 
 .message {
-  height: 180px !important;
+  height: 180px;
   padding-top: 15px;
+  resize: none;
 }
 
 .submit {
@@ -59,8 +68,8 @@
   cursor: pointer;
   font-weight: bold;
   letter-spacing: 1px;
-  padding-left: 0 !important;
-  width: 440px;
+  border: none;
+  height: 45px;
 }
 
 .reseaux {
@@ -100,7 +109,6 @@
 }
 
 /* séparateur vertical */
-
 .separator2 {
   width: 1px;
   min-height: 520px;
@@ -112,18 +120,16 @@
   );
 }
 
-.Partenariat{
-    color: #c8a96b;
+.Partenariat {
+  color: #c8a96b;
 }
 
 .fleurhibiscus {
-    width: 500px;
-
-    margin-left: 31%;
+  width: 500px;
+  margin-left: 31%;
 }
 
 /* responsive */
-
 @media screen and (max-width: 768px) {
   .contact {
     font-size: 42px;
@@ -161,7 +167,36 @@
     margin-top: 25px;
     display: block;
     margin-right: auto;
+  }
 }
 
+/* contact confirmé */
+.confirmation-contact {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #e8dcc2;
+  padding: 40px;
+}
 
+.confirmation-contact h1 {
+  color: #c8a96b;
+  font-size: 48px;
+  margin-bottom: 25px;
+}
+
+.confirmation-contact p {
+  font-size: 22px;
+  line-height: 1.8;
+}
+
+.retour-accueil {
+  margin-top: 35px;
+  padding: 14px 32px;
+  border: 1px solid #c8a96b;
+  color: #c8a96b;
+  text-decoration: none;
 }

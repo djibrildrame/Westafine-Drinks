@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import "../Saveur/Saveur.css";
 
-import Bissap from "../Westafine-img/imgbissap.JPG";
-import Gingembre from "../Westafine-img/imggingembre.JPG";
-import GNAMAKOUDJI from "../Westafine-img/imgananas.JPG";
+import Bissap from "../Westafine-img/imgbissap.webp";
+import Gingembre from "../Westafine-img/imggingembre.webp";
+import GNAMAKOUDJI from "../Westafine-img/imgananas.webp";
 
 import Header from '../ HeaderFooter/Header';
 import Footer from '../ HeaderFooter/Footer';

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "..//Westafine-img/IMG_3551.jpeg";
+import logo from "..//Westafine-img/IMG_3551webp";
 
 const Accueil = () => {
   return (

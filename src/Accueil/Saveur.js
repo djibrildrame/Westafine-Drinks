@@ -1,7 +1,7 @@
 import React from 'react';
 import "../Accueil/Accueil.css";
-import Bissap from "../Westafine-img/ChatGPT Image 21 mai 2026, 04_40_02.png";
-import Gimgembre from "../Westafine-img/ChatGPT Image 21 mai 2026, 04_37_15.png";
+import Bissap from "../Westafine-img/ChatGPT Image 21 mai 2026, 04_40_02.webp";
+import Gimgembre from "../Westafine-img/ChatGPT Image 21 mai 2026, 04_37_15.webp";
 
 const Saveur = () => {
   return (

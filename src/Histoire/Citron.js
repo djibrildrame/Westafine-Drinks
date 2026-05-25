@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Histoire/Histoire.css";
-import Citronp from "../Westafine-img/citronpresse.png";
+import Citronp from "../Westafine-img/citronpresse.webp";
 
 const Citron = () => {
   return (

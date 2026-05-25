@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Histoire/Histoire.css";
-import Fleur from "..//Westafine-img/Fleur.png";
+import Fleur from "..//Westafine-img/Fleur.webp";
 
 const Introduction = () => {
   return (
