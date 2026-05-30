@@ -5,8 +5,8 @@ import Bissap from "../Westafine-img/imgbissap.webp";
 import Gingembre from "../Westafine-img/imggingembre.webp";
 import GNAMAKOUDJI from "../Westafine-img/imgananas.webp";
 
-import Header from '../ HeaderFooter/Header';
-import Footer from '../ HeaderFooter/Footer';
+import Header from '../HeaderFooter/Header';
+import Footer from '../HeaderFooter/Footer';
 
 const Saveur = () => {
   const produits = [

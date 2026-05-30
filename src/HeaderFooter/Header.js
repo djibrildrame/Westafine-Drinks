@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import logo from "../Westafine-img/Logo.webp";
-import "../ HeaderFooter/Header.css";
+import "../HeaderFooter/Header.css";
 
 
 const Header = () => {
